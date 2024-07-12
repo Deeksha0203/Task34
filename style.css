@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    background-color: rgb(195, 193, 193);
+}
+
+h2{
+    padding: 10px;
+}
+.header, .content{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #eee;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.para, time{
+    color: rgb(152, 151, 151);
+    margin-top: 5px;
+}
+
+time, Read{
+    font-size: 0.8em;
+}
+
+.footer{
+  display: flex; 
+  margin-top: 350px; 
+  padding: 10px ;
+}
+
+input[type="text"]{
+    padding: 10px;
+    width: 100%;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    margin: 2px 0px;
+    padding: 12px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgba(5, 15, 210, 0.856);
+    color: white;
+}
+
+p{
+    font-weight: unset;
+}
